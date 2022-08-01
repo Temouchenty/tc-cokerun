@@ -22,3 +22,9 @@ In qb-core/shared/items.lua
 https://github.com/qbcore-framework/qb-core
 
 https://github.com/qbcore-framework/qb-target
+
+
+
+
+
+# Inspired by https://github.com/rabbi696/qb-coke
