@@ -3,6 +3,7 @@ Cocaine plane pickup and Cocaine table process for QBCORE
 
 - Configurable !
 
+- Uses qb-target and qb-core:drawtext!
 
 # PREVIEW (excuse the speed ups medals weird for only 2 minutes)
 
