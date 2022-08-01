@@ -16,12 +16,25 @@ Config.BrickAmount = math.random(1,6) -- amount of bricks after delivery
 
 Config.ProcessTime = 30000
 
+-- START LOCATION
+
 Config.PedLocation = {
 	['x'] = 2122.35,
 	['y'] = 4784.74,
 	['z'] = 40.09,
 	['h'] = 286.25
 }
+
+-- PROCESS LOCATION
+
+Config.TableProcessLocation = {
+	['x'] = 1650.53,
+	['y'] = 4749.97,
+	['z'] = 41.1,
+	['heading'] = 106.7
+}
+
+-- FLIGHT LOCATIONS
 
 Config.locations = {
 	[1] = { 
