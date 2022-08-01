@@ -5,6 +5,8 @@ Cocaine plane pickup and Cocaine table process for QBCORE
 
 - Uses qb-target and qb-cores nui drawtext!
 
+- Coke Table Spawns Wherever You Set The Process Coords!
+
 # PREVIEW (excuse the speed ups medals weird for only 2 minutes)
 
 https://medal.tv/games/gta-v/clips/uLwNtbgKT257P/d1337vFTetuu?invite=cr-MSxLWFMsNDIxNDM3MTcs
