@@ -16,11 +16,11 @@ Citizen.CreateThread(function()
         sleep = 5
         local player = PlayerPedId()
         local playercoords = GetEntityCoords(player)
-        local tablecoordsx = 1650.53
-        local tablecoordsy = 4749.97
-        local tablecoordsz = 41.1
+        local tablecoordsx = Config.TableProcessLocation['x']
+        local tablecoordsy = Config.TableProcessLocation['y']
+        local tablecoordsz = Config.TableProcessLocation['z']
 		local table = CreateObject(-2002254222, tablecoordsx, tablecoordsy, tablecoordsz, true, true, true)
-		SetEntityHeading(table, 106.7)
+		SetEntityHeading(table, Config.TableProcessLocation['heading'])
 		FreezeEntityPosition(table, true)
         local dist = #(vector3(playercoords.x,playercoords.y,playercoords.z)-vector3(tablecoordsx,tablecoordsy,tablecoordsz))
         if dist <= 3 and not isProcessing then
@@ -44,6 +44,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(sleep)
     end
 end)
+
 
 
 
