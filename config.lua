@@ -1,16 +1,10 @@
 Config = {}
 
--- Config.useMythic = true -- change this if you want to use mythic_notify or not
--- Config.progBar = true -- change this if you want to use Progress Bar or not
--- Config.useCD = true -- change this if you want to have a global cooldown or not
--- Config.cdTime = 900000 -- global cooldown in ms. Set to 20 minutes by default - (https://www.timecalculator.net/minutes-to-milliseconds)
--- Config.doorHeading = 112.32 -- change this to the proper heading to look at the door you start the runs with
 Config.Price = 2000 -- amount you get after the run 
 Config.Amount = 2000 --amount you have to pay to start a run 
 
 Config.Cooldown = 60 --how much seconds till a player can rent another plane (to avoid planes spam spawning)
--- Config.cokeTime = 60000 -- time in ms the effects of coke will last for
--- Config.pickupTime = 5000 -- time it takes to pick up the delivery 
+
 Config.BaggyAmount = math.random(1,15) -- amount of bags from 1 brick
 Config.BrickAmount = math.random(1,6) -- amount of bricks after delivery
 
